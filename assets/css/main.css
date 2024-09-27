@@ -2574,6 +2574,12 @@ input, select, textarea {
 	margin-top: 5px;
    }
 
+   @media only screen and (max-width: 768px) {
+    .image-right {
+        display: none;
+    }
+}
+
    .image-left {
 	width: 0.5px;
 	height: 0.5px;
@@ -2644,6 +2650,12 @@ input, select, textarea {
 /* Slideshow container */
 .slideshow-container {
 	max-width: 1000px;
+	position: relative;
+	margin: auto;
+  }
+
+.blideshow-container {
+	max-width: 200px;
 	position: relative;
 	margin: auto;
   }
